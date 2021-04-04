@@ -1,0 +1,17 @@
+{
+  "name": "c-plus",
+  "version": "1.0.0",
+  "description": "c.plus website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SASS/main.scss style.css -w"
+  },
+  "author": "YuriS",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

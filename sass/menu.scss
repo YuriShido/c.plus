@@ -1,0 +1,51 @@
+#Menu {
+  h2 {
+    padding: 1.5rem 0 0 0;
+      font-weight: 200;
+      text-align: center;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // padding: 1rem;
+
+    .menu-card {
+      width: 600px;
+      background-color: $color-primary;
+      margin: 1rem;
+      padding: 1rem;
+      
+      
+      p {
+      padding-top: 1rem;
+      
+    }
+    
+    }
+
+      .option-card{
+        width: 300px;
+        background-color: $color-primary;
+        margin: 1rem;
+        padding: 1rem;
+
+        p {
+          padding-top: 1rem;
+          
+        }
+        
+      }
+  }
+
+
+  .btn-div {
+    text-align: center;
+    margin-top: 0.5rem;
+
+    .book-btn {
+      margin: 0.7rem;
+    }
+  }
+}

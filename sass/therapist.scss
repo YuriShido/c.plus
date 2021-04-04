@@ -1,0 +1,34 @@
+#Therapist {
+  // width: 90vw;
+      background-color: $color-primary;
+      text-align:center;
+  .introduce-wrapper {
+      display:flex;
+      flex-wrap: wrap;
+      // width: 90%;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      justify-content: center;
+
+      .intro-content {
+        max-width: 450px;
+        // align-content: center;
+      }
+      img {
+        max-width:450px;
+      }
+      
+      .intro-name {
+        font-weight: 400;
+        padding: 1.5rem;
+
+      }
+
+      p {
+        padding: 0 1.5rem;
+      }
+
+
+  }
+
+}

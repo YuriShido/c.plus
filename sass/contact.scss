@@ -1,0 +1,29 @@
+#Contact {
+    padding: 2rem;
+  .info-container {
+      padding: 1.5rem;
+      text-align: center;
+
+      p {
+        padding: 1rem;
+      }
+
+      .icon {
+        margin: 0.5rem;
+        color: #807453;
+        
+
+        &:hover {
+          color:$color-primary;
+        }
+      }
+  }
+
+  .store-time {
+    text-align: center;
+
+    h2 {
+      padding-bottom: 1rem;
+    }
+  }
+}

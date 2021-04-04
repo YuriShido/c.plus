@@ -1,0 +1,18 @@
+#footer {
+  padding: 1.7rem;
+  // background-color:  #807453;
+  background-color:  #3b372c;;
+  text-align:center;
+  color: silver;
+  div {
+    padding: 0.5rem;
+  }
+  a {
+    color: silver;
+   padding: 0 0.5rem;
+
+   &:hover {
+     color:$color-primary
+   }
+  }
+}
