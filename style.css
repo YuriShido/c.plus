@@ -36,7 +36,8 @@ a {
 
 header {
   overflow-x: hidden;
-  position: relative; }
+  position: relative;
+  height: 100vh; }
 
 .nav-wrapper {
   position: relative;
@@ -217,11 +218,11 @@ header {
     flex-wrap: wrap;
     padding: 1.5rem 1rem;
     text-align: center;
-    justify-content: center; }
+    justify-content: space-evenly; }
     #Therapist .introduce-wrapper .intro-content {
       max-width: 450px; }
     #Therapist .introduce-wrapper img {
-      max-width: 450px; }
+      max-width: 500px; }
     #Therapist .introduce-wrapper .intro-name {
       font-weight: 400;
       padding: 1.5rem; }
