@@ -1,5 +1,6 @@
-body {
+header {
     overflow-x: hidden;
+    position: relative;
 }
 .nav-wrapper {
   position: relative;
@@ -16,7 +17,7 @@ body {
     
         .brain {
             width: 50px;
-            height:auto;
+            height:36px;
             padding: 0 3px;
         }
     }
