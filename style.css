@@ -42,7 +42,8 @@ body {
   .nav-wrapper .logo-wrapper {
     display: flex; }
     .nav-wrapper .logo-wrapper .logo {
-      font-size: 24px; }
+      font-size: 24px;
+      color: black; }
     .nav-wrapper .logo-wrapper .brain {
       width: 50px;
       height: auto;
