@@ -203,6 +203,10 @@ header {
 
 #Menu p {
   padding: 0.5rem; }
+  
+#Menu #price {
+    padding: 0 0 0.5rem 0.5rem;
+}
 
 #Menu .btn-div {
   text-align: center;
