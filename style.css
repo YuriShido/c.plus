@@ -154,8 +154,7 @@ header {
   font-weight: 200;
   position: relative;
   padding: 1.5rem 0 0.7rem;
-  text-align: center;
-  color: red; }
+  text-align: center; }
 
 .title:before {
   position: absolute;
