@@ -7,14 +7,21 @@
       p {
         padding: 1rem;
       }
-
+      .mail {
+        color: black;
+        cursor: pointer;
+        &:hover {
+          color:#807453 ;
+        }
+      } 
+      
       .icon {
         margin: 0.5rem;
         color: #807453;
-        
 
         &:hover {
           color:$color-primary;
+          cursor: pointer;
         }
       }
   }

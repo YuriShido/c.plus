@@ -59,7 +59,8 @@ header {
     .nav-wrapper .nav-contents a {
       color: black; }
       .nav-wrapper .nav-contents a:hover {
-        border-bottom: solid 1px #807453; }
+        border-bottom: solid 1px #807453;
+        cursor: pointer; }
 
 @media (max-width: 780px) {
   .nav-wrapper {
@@ -153,7 +154,8 @@ header {
   font-weight: 200;
   position: relative;
   padding: 1.5rem 0 0.7rem;
-  text-align: center; }
+  text-align: center;
+  color: red; }
 
 .title:before {
   position: absolute;
@@ -203,10 +205,6 @@ header {
 
 #Menu p {
   padding: 0.5rem; }
-  
-#Menu #price {
-    padding: 0 0 0.5rem 0.5rem;
-}
 
 #Menu .btn-div {
   text-align: center;
@@ -244,11 +242,17 @@ header {
     text-align: center; }
     #Contact .info-container p {
       padding: 1rem; }
+    #Contact .info-container .mail {
+      color: black;
+      cursor: pointer; }
+      #Contact .info-container .mail:hover {
+        color: #807453; }
     #Contact .info-container .icon {
       margin: 0.5rem;
       color: #807453; }
       #Contact .info-container .icon:hover {
-        color: #DFC7A3; }
+        color: #DFC7A3;
+        cursor: pointer; }
   #Contact .store-time {
     text-align: center; }
     #Contact .store-time h2 {
@@ -265,4 +269,5 @@ header {
     color: silver;
     padding: 0 0.5rem; }
     #footer a:hover {
-      color: #DFC7A3; }
+      color: #DFC7A3;
+      cursor: pointer; }
