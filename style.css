@@ -29,10 +29,12 @@ a {
   letter-spacing: 0.1em;
   color: white;
   background-color: #807453;
+  background-color: #5f697a;
   border-radius: 0.25rem; }
   .btn:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    background-color: #3b372c; }
+    background-color: #3b372c;
+    background-color: #2c3038; }
 
 header {
   overflow-x: hidden;
@@ -60,6 +62,7 @@ header {
       color: black; }
       .nav-wrapper .nav-contents a:hover {
         border-bottom: solid 1px #807453;
+        border-bottom: solid 1px #5f697a;
         cursor: pointer; }
 
 @media (max-width: 780px) {
@@ -135,7 +138,7 @@ header {
 .hero {
   width: 85vw;
   height: 80vh;
-  background-color: #DFC7A3;
+  background-color: #C9DBF5;
   text-align: center;
   margin: 0 auto;
   display: flex;
@@ -189,18 +192,21 @@ header {
   justify-content: center; }
   #Menu .menu-wrapper .menu-card {
     width: 600px;
-    background-color: #DFC7A3;
+    background-color: #C9DBF5;
     margin: 1rem;
     padding: 1rem; }
     #Menu .menu-wrapper .menu-card p {
       padding-top: 1rem; }
   #Menu .menu-wrapper .option-card {
     width: 300px;
-    background-color: #DFC7A3;
+    background-color: #C9DBF5;
     margin: 1rem;
     padding: 1rem; }
     #Menu .menu-wrapper .option-card p {
       padding-top: 1rem; }
+  #Menu .menu-wrapper .course {
+    width: 600px;
+    padding: 1rem; }
 
 #Menu p {
   padding: 0.5rem; }
@@ -212,7 +218,7 @@ header {
     margin: 1.5rem; }
 
 #Therapist {
-  background-color: #DFC7A3;
+  background-color: #C9DBF5;
   text-align: center; }
   #Therapist .introduce-wrapper {
     display: flex;
@@ -245,12 +251,15 @@ header {
       color: black;
       cursor: pointer; }
       #Contact .info-container .mail:hover {
-        color: #807453; }
+        color: #807453;
+        color: #4d80d3; }
     #Contact .info-container .icon {
       margin: 0.5rem;
-      color: #807453; }
+      color: #807453;
+      color: #4f5866;
+      color: #4d80d3; }
       #Contact .info-container .icon:hover {
-        color: #DFC7A3;
+        color: #C9DBF5;
         cursor: pointer; }
   #Contact .store-time {
     text-align: center; }
@@ -260,6 +269,8 @@ header {
 #footer {
   padding: 1.7rem;
   background-color: #3b372c;
+  background-color: #262b31;
+  background-color: #4e5a68;
   text-align: center;
   color: silver; }
   #footer div {
@@ -268,5 +279,5 @@ header {
     color: silver;
     padding: 0 0.5rem; }
     #footer a:hover {
-      color: #DFC7A3;
+      color: #C9DBF5;
       cursor: pointer; }

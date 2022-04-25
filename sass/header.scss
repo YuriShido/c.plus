@@ -35,6 +35,7 @@ header {
                 &:hover {
                     // color: #807453;
                     border-bottom: solid 1px #807453;
+                    border-bottom: solid 1px #5f697a;
                     cursor: pointer;
                 }
             }
@@ -150,7 +151,7 @@ header {
 .hero {
     width: 85vw;
     height: 80vh;
-    background-color:#DFC7A3;
+    background-color:#C9DBF5;
     text-align: center;
     margin: 0 auto;
     display: flex;

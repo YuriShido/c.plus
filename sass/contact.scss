@@ -12,12 +12,15 @@
         cursor: pointer;
         &:hover {
           color:#807453 ;
+          color:#4d80d3 ;
         }
       } 
       
       .icon {
         margin: 0.5rem;
         color: #807453;
+        color:#4f5866;
+        color:#4d80d3;
 
         &:hover {
           color:$color-primary;
