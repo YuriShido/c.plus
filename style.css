@@ -41,6 +41,9 @@ header {
   position: relative;
   height: 100vh; }
 
+.nav-sp {
+  padding-top: 0.5rem; }
+
 .nav-wrapper {
   position: relative;
   padding: 1.5rem 5.5rem;
@@ -52,8 +55,8 @@ header {
       font-size: 24px;
       color: black; }
     .nav-wrapper .logo-wrapper .brain {
-      width: 50px;
-      height: 36px;
+      width: 110px;
+      height: auto;
       padding: 0 3px; }
   .nav-wrapper .nav-contents {
     padding: 0 1rem 0 0;
@@ -90,6 +93,7 @@ header {
       margin-left: auto; }
       .nav-sp .nav-contents:hover {
         background-color: rgba(59, 55, 43, 0.7);
+        background-color: #4e5a68;
         color: white; }
       .nav-sp .nav-contents a {
         color: black; }
@@ -216,6 +220,10 @@ header {
   margin-top: 0.5rem; }
   #Menu .btn-div .book-btn {
     margin: 1.5rem; }
+
+@media (max-width: 560px) {
+  #Menu .menu-wrapper .course {
+    width: 95vw; } }
 
 #Therapist {
   background-color: #C9DBF5;

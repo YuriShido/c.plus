@@ -3,6 +3,9 @@ header {
     position: relative;
     height: 100vh;
 }
+.nav-sp{
+    padding-top: 0.5rem;
+}
 .nav-wrapper {
   position: relative;
   padding: 1.5rem 5.5rem;
@@ -17,8 +20,8 @@ header {
         }
     
         .brain {
-            width: 50px;
-            height:36px;
+            width: 110px;
+            height:auto;
             padding: 0 3px;
         }
     }
@@ -77,6 +80,7 @@ header {
             
             &:hover {
                 background-color:hsla(44, 15%, 20%, 0.7) ;
+                background-color:#4e5a68 ;
                 color: white;
             }
 
